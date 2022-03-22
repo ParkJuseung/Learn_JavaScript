@@ -1,8 +1,8 @@
-function capitalize(word) {
-    return word[0].toUpperCase() + word.substring(1).toLowerCase();
+function getLastApp(apps) {
+    let count = apps.lentgh - 1
+    return apps[count]
 }
 
-// Sample usage - do not modifys
-console.log(capitalize("sam")); // "Sam"
-console.log(capitalize("ALEX")); // "Alex"
-console.log(capitalize("chARLie")); // "Charlie"
+// Sample usage - do not modify
+console.log(getLastApp(["Chrome", "Clock", "Twitter"])); // "Twitter"
+console.log(getLastApp(["Safari", "Contacts"])); // "Contacts"
