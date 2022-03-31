@@ -1,10 +1,3 @@
-/*
- notetoself.css
- 
- 테스트 브라우저: firefox, safari, opera, chrome
- 전환 효과(ease-in)은 firefox에서 적용되지 않습니다.
-*/
-
 body {
     background-color: #dbdbdb;
     font-size: 100%;
